@@ -175,7 +175,55 @@ background-position:300% center;
 }
 
 }
+/* HERO */
+.hero{
 
+height:100vh;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+background:
+linear-gradient(
+-45deg,
+#0f172a,
+#1e293b,
+#0ea5e9,
+#2563eb
+);
+
+background-size:400% 400%;
+
+animation:
+gradientMove 15s ease infinite;
+
+padding:20px;
+
+}
+
+/* PROFILE PHOTO */
+
+.profile-pic{
+
+width:180px;
+height:180px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:4px solid #38bdf8;
+
+margin-bottom:20px;
+
+box-shadow:
+0 0 30px rgba(56,189,248,.5);
+
+}
 .hero p{
 
 margin-top:15px;
