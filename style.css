@@ -158,6 +158,20 @@ button {
     100% { transform: translate(-30px, 30px) scale(0.9); }
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00d4ff;
+}
+
 /* ==========================================
    Reusable UI Components & Typography
    ========================================== */
